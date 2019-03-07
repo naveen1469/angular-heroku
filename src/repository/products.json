@@ -1,0 +1,30 @@
+[
+  {
+    "productId": 1,
+    "productName": "ng-book",
+    "price": 19.95,
+    "starRating": 3.2,
+    "image": "/assets/images/ngbook.jpg"
+  },
+  {
+    "productId": 2,
+    "productName": "pRo anGular",
+    "price": 32.99,
+    "starRating": 4.2,
+    "image": "/assets/images/proangular.jpg"
+  },
+  {
+    "productId": 3,
+    "productName": "Angular",
+    "price": 32.99,
+    "starRating": 4.5,
+    "image": "/assets/images/angular.png"
+  },
+  {
+    "productId": 4,
+    "productName": "NodeJs",
+    "price": 32.99,
+    "starRating": 3,
+    "image": "/assets/images/nodejsinaction.jpg"
+  }
+]
