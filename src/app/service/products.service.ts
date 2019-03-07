@@ -9,7 +9,7 @@ import { Observable, throwError } from 'rxjs';
 })
 export class ProductsService {
   // private productUrl = '/repository/products.json';
-  private productUrl = 'server/api/products';
+  private productUrl = '/server/api/products';
   private http: HttpClient;
   constructor(http: HttpClient) {
     this.http = http;
