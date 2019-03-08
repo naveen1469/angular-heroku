@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.static(__dirname + '/dist/product-viewer'));
 
 // Set our api routes proxy to point to spring boot server
-app.use('/server', proxy('http://localhost:9090'));
+app.use('/server', proxy('http://10.113.192.35:9090'));
 
 app.get('/*', function(req,res) {
     
