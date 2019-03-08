@@ -17,6 +17,7 @@ export class ProductsService {
   // shorthand
   // constructor(private http: HttpClient) {}
   getProducts(): Observable<IProduct[]> {
+    console.log('get products from service: url :',this.productUrl);
     return this.http.get<IProduct[]>(this.productUrl).pipe(
       tap(data => console.log('Products : ' + JSON.stringify(data))),
       catchError(this.handleError)
