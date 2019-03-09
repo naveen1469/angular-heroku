@@ -1,6 +1,6 @@
 {
 	"/server": {
-		"target": "http://10.113.192.35:9090",
+		"target": "https://spring-boot-product.herokuapp.com",
 		"secure": false,
     "changeOrigin": true,
     "logLevel": "debug",
